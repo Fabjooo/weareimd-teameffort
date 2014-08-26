@@ -124,6 +124,12 @@
 			</a>
 		</figure>
 
+		<figure class="logo">
+			<a href="http://www.iminds.be" title="iMinds">
+				<img src="img/partners/iminds.png" alt="iMinds">
+			</a>
+		</figure>
+
 		<br class="clearfix"/>		
 
 	</div>
