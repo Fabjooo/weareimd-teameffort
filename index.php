@@ -31,7 +31,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>API Tryout Instragram</title>
+	<title>Interactive Multimedia Design - Thomas More Mechelen</title>
 	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Voces' rel='stylesheet' type='text/css'>
@@ -62,6 +62,8 @@
 	</header>
 
 	<div id="thisIsImd">
+	<h2>Zo ziet onze opleiding eruit</h2>
+
 	<?php
 		foreach ($instastash->data as $insta) {
 			echo "<figure>";
