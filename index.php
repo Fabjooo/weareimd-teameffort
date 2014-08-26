@@ -62,7 +62,7 @@
 	</header>
 
 	<div class="partners">
-		<h2 class="center">Onze partners</h2>
+		<h2 class="center">Onze partners, waar jij na je studies misschien ook wel gaat werken.</h2>
 
 		<figure class="logo">
 			<a href="http://www.district01.be" title="District01">
@@ -73,6 +73,36 @@
 		<figure class="logo">
 			<a href="http://appstrakt.com" title="Appstrakt">
 				<img src="img/partners/appstrakt.png" alt="Appstrakt">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://www.intracto.com/" title="Intracto">
+				<img src="img/partners/intracto.png" alt="Intracto">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://www.prophets.be" title="Prophets">
+				<img src="img/partners/prophets.png" alt="Prophets">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://www.thomasmore.be" title="Thomas More">
+				<img src="img/partners/thomasmore.png" alt="Thomas More">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://www.wieni.be" title="Wieni">
+				<img src="img/partners/wieni.png" alt="Wieni">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://telenetidealabs.be" title="Telenet Idealabs">
+				<img src="img/partners/idealabs.png" alt="Telenet Idealabs">
 			</a>
 		</figure>
 
@@ -89,22 +119,10 @@
 		</figure>
 
 		<figure class="logo">
-			<a href="http://telenetidealabs.be" title="Telenet Idealabs">
-				<img src="img/partners/idealabs.png" alt="Telenet Idealabs">
-			</a>
-		</figure>
-
-		<figure class="logo">
 			<a href="http://www.thesedays.be" title="Thesedays Y&R">
 				<img src="img/partners/thesedays.png" alt="Thesedays Y&R">
 			</a>
 		</figure>
-
-		<figure class="logo">
-			<a href="http://www.intracto.com/" title="Intracto">
-				<img src="img/partners/intracto.png" alt="Intracto">
-			</a>
-		</figure>	
 
 		<br class="clearfix"/>		
 
