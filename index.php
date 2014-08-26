@@ -61,19 +61,68 @@
 
 	</header>
 
-	<div id="thisIsImd">
-	<h2>Zo ziet onze opleiding eruit</h2>
+	<div class="partners">
+		<h2 class="center">Onze partners</h2>
 
-	<?php
-		foreach ($instastash->data as $insta) {
-			echo "<figure>";
-			echo "<a href='".$insta->link."'>";
-			echo "<img src='" . $insta->images->standard_resolution->url . "' alt='" . htmlspecialchars($insta->caption->text) . "' />";
-			echo "</a>";
-			echo "<figcaption>" . htmlspecialchars($insta->caption->text) . "</figcaption>";
-			echo "</figure>";
-		}	
-	?>
+		<figure class="logo">
+			<a href="http://www.district01.be" title="District01">
+				<img src="img/partners/district01.png" alt="District01">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://appstrakt.com" title="Appstrakt">
+				<img src="img/partners/appstrakt.png" alt="Appstrakt">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://innovation.vrt.be" title="VRT">
+				<img src="img/partners/vrt.png" alt="VRT">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://www.nascom.be" title="Nascom">
+				<img src="img/partners/nascom.png" alt="Nascom">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://telenetidealabs.be" title="Telenet Idealabs">
+				<img src="img/partners/idealabs.png" alt="Telenet Idealabs">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://www.thesedays.be" title="Thesedays Y&R">
+				<img src="img/partners/thesedays.png" alt="Thesedays Y&R">
+			</a>
+		</figure>
+
+		<figure class="logo">
+			<a href="http://www.intracto.com/" title="Intracto">
+				<img src="img/partners/intracto.png" alt="Intracto">
+			</a>
+		</figure>	
+
+		<br class="clearfix"/>		
+
+	</div>
+
+	<div class="thisIsImd">
+		<h2 class="center">Hoe onze opleiding eruit ziet? Zo.</h2>
+
+		<?php
+			foreach ($instastash->data as $insta) {
+				echo "<figure>";
+				echo "<a href='".$insta->link."'>";
+				echo "<img src='" . $insta->images->standard_resolution->url . "' alt='" . htmlspecialchars($insta->caption->text) . "' />";
+				echo "</a>";
+				echo "<figcaption>" . htmlspecialchars($insta->caption->text) . "</figcaption>";
+				echo "</figure>";
+			}	
+		?>
 	</div>
 </body>
 </html>
