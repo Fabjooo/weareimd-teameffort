@@ -144,6 +144,8 @@
 		<h2 class="center">Hoe onze opleiding eruit ziet? Zo.</h2>
 
 		<?php
+
+
 			foreach ($instastash->data as $insta) {
 				echo "<figure>";
 				echo "<a href='".$insta->link."'>";
