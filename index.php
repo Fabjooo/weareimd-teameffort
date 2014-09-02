@@ -119,6 +119,12 @@
 		</figure>
 
 		<figure class="logo">
+			<a href="http://www.wijs.be" title="Wijs">
+				<img src="img/partners/wijs.png" alt="Wijs">
+			</a>
+		</figure>
+
+		<figure class="logo">
 			<a href="http://www.thesedays.be" title="Thesedays Y&R">
 				<img src="img/partners/thesedays.png" alt="Thesedays Y&R">
 			</a>
