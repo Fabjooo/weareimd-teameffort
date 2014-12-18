@@ -11,7 +11,7 @@
 		CURLOPT_SSL_VERIFYPEER		disable the SSL certificate check (not recommended)
 	*/
 	
-	$ignore_users = array('tomylin_sk');
+	$ignore_users = array('tomylin_sk', 'live_free_tally');
 
     $request = curl_init(); 								// initialize a new CURL request
     curl_setopt($request, CURLOPT_URL, $url); 				// set the url to call
