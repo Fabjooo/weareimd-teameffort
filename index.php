@@ -11,7 +11,7 @@
 		CURLOPT_SSL_VERIFYPEER		disable the SSL certificate check (not recommended)
 	*/
 	
-	$ignore_users = array('tomylin_sk', 'live_free_tally', 'imtoofabluv');
+	$ignore_users = array('tomylin_sk', 'live_free_tally', 'imtoofabluv', 'evie_momma', '1triplebeezy');
 
     $request = curl_init(); 								// initialize a new CURL request
     curl_setopt($request, CURLOPT_URL, $url); 				// set the url to call
@@ -151,11 +151,22 @@
 			foreach ($instastash->data as $insta) {
 				if(!in_array($insta->user->username, $ignore_users))
 				{
+					//var_dump($insta->user->username);
 					echo "<figure>";
 					echo "<a href='".$insta->link."'>";
 					echo "<img src='" . $insta->images->standard_resolution->url . "' alt='" . htmlspecialchars($insta->caption->text) . "' />";
 					echo "</a>";
-					echo "<figcaption>" . htmlspecialchars($insta->caption->text) . "</figcaption>";
+
+					if(strlen($insta->caption->text) > 80)
+					{
+						$caption = substr($insta->caption->text, 0, 80) . "...";
+					}
+					else
+					{
+						$caption = $insta->caption->text;
+					}
+
+					echo "<figcaption>" . htmlspecialchars($caption) . "</figcaption>";
 					echo "</figure>";
 				}
 			}	
