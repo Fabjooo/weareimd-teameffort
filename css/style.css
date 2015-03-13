@@ -2,7 +2,7 @@ body{
 	font-family: 'Vollkorn', serif;
 	background-color: #191919;
 	color: #FFF;
-	font-size: 62.5%;
+	font-size: 55%;
 }
 
 .clearfix
@@ -55,6 +55,36 @@ h2
 .center
 {
 	text-align: center;
+}
+
+.MailingList input
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+input[type="text"], input[type="email"]
+{
+	color: #280101;
+	font-size: 1.5em;
+	padding: 0.25em;
+	border: none;
+	border-radius: 2px;
+}
+
+.button
+{
+	font-size: 1.5em;
+	padding: 0.25em;
+	background-color: #280101;
+	border: none;
+	border-radius: 2px;
+}
+
+.MailingList input
+{
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
 }
 
 .thisIsImd figure{

@@ -46,7 +46,24 @@
 		<p>Ga je <strong>verder studeren</strong> en ben je net als ons helemaal zot van pixels en programmeren?
 		In de professionele bachelor-opleiding <a href="http://www.thomasmore.be/interactive-multimedia-design-imd">Interactive Multimedia Design</a> leer je de volledige mix tussen web design en development.
 		</p>
-		<p>Leer moderne webapplicaties, mobile apps en interactieve campagnes ontwerpen en ontwikkelen. #WeAreIMD, enkel in Mechelen bij <a href="http://www.thomasmore.be/interactive-multimedia-design-imd">Thomas More</a>
+
+<!-- Begin MailChimp Signup Form -->
+<style type="text/css">
+</style>
+<div id="mc_embed_signup" class="MailingList">
+<form action="//thomasmore.us7.list-manage.com/subscribe/post?u=2481da086e218c05ba1b6092a&amp;id=c43255226c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email adres" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_2481da086e218c05ba1b6092a_c43255226c" tabindex="-1" value=""></div>
+    <input type="submit" value="Stuur me tips!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+
+		<p>Schrijf je nu hierboven in op onze nieuwsbrief en we sturen je tips &amp; tricks om nu al een betere developer / designer te worden. #WeAreIMD, enkel in Mechelen bij <a href="http://www.thomasmore.be/interactive-multimedia-design-imd">Thomas More</a>
 	
 
 	<div class="facebook">
